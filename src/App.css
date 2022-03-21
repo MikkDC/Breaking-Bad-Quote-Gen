@@ -55,8 +55,17 @@ h3 {
 }
 
 button {
+  transition: all .25s ease;
   color: white;
   background-color: rgb(14, 71, 32);
   padding: 14px;
-  border-radius: 14px;
+  border-radius: 7px;
+   
+}
+
+button:hover {
+  background-color:rgb(33, 151, 72);
+  padding-left: 21px;
+  padding-right: 21px;
+
 }

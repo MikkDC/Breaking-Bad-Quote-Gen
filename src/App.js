@@ -37,16 +37,13 @@ const App = () => {
   }
 
   return (
-    <div className="main">
-      
+    <div className="main">      
 
       <div className="title">
         <img src={logo}></img>        
         <h1>Quote Generator</h1>
         <button onClick={fetchQuote}>Get Quote</button>
-      </div>
-
-      
+      </div>      
 
       <div className="quote">
         <h2>"{quote.quote}"</h2>
