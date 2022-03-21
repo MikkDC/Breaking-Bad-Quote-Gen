@@ -40,7 +40,7 @@ const App = () => {
     <div className="main">      
 
       <div className="title">
-        <img src={logo}></img>        
+        <img src={logo} alt="Breaking Bad Logo"></img>        
         <h1>Quote Generator</h1>
         <button onClick={fetchQuote}>Get Quote</button>
       </div>      
